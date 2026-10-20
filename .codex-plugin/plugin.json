@@ -1,0 +1,26 @@
+{
+  "name": "swat-swatplus-modeling-assistant",
+  "version": "1.0.0",
+  "description": "Documentation-grounded classic SWAT and SWAT+ modeling assistant with optional local PDF lookup. Reference PDFs not bundled.",
+  "skills": "./skills/",
+  "author": {
+    "name": "Kunyang Wang"
+  },
+  "interface": {
+    "displayName": "SWAT/SWAT+ Modeling Assistant Gen II",
+    "developerName": "Kunyang Wang",
+    "shortDescription": "Version-aware, source-grounded modeling guidance for SWAT and SWAT+.",
+    "longDescription": "Strictly separates classic SWAT and SWAT+ technical guidance. Optional user-provided local manuals can be searched with the included script; no third-party PDFs are redistributed.",
+    "category": "Education & Research",
+    "capabilities": [
+      "skills"
+    ],
+    "composerIcon": "./assets/gpt-icon.png",
+    "logo": "./assets/gpt-icon.png",
+    "defaultPrompt": [
+      "Explain how HRUs differ in classic SWAT and SWAT+.",
+      "Troubleshoot reservoir input in SWAT+ using version-matched documentation.",
+      "Explain classic SWAT streamflow calibration and validation steps."
+    ]
+  }
+}
