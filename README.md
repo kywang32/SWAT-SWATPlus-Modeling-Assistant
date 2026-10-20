@@ -150,6 +150,6 @@ Project-authored instructions and scripts: [MIT License](LICENSE), © 2026 Kunya
 
 If describing this assistant in published work, cite a fixed release/tag or archived snapshot with the actual repository URL. Cite the underlying SWAT/SWAT+ software and documentation independently for any model methods.
 
-> Wang, K. (2026). *SWAT/SWAT+ Modeling Assistant Gen II* (v1.0.0) [Agent Skill and plugin]. GitHub. [Add repository URL after publishing].
+> Wang, K. (2026). *SWAT/SWAT+ Modeling Assistant Gen II* (v1.0.0) [Agent Skill and plugin]. GitHub. https://github.com/kywang32/SWAT-SWATPlus-Modeling-Assistant/.
 
 Scientific bug reports, documentation corrections, usability improvements, and version-specific references are welcome. Please **do not submit copyrighted third-party PDFs, unpublished model/data files, or credentials** in issues and pull requests.
