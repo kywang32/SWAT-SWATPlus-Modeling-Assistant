@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "swat-swatplus-modeling-assistant",
+  "version": "1.0.0",
+  "description": "Documentation-grounded research assistance for classic SWAT and SWAT+, with distinct model knowledge domains and optional local-manual lookup.",
+  "author": {"name": "Kunyang Wang"},
+  "license": "MIT",
+  "keywords": ["SWAT", "SWAT+", "hydrology", "watershed-modeling", "research"]
+}

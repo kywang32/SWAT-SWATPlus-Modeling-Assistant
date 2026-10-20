@@ -1,0 +1,4 @@
+interface:
+  display_name: "SWAT/SWAT+ Modeling Assistant Gen II"
+  short_description: "Source-grounded, version-aware SWAT and SWAT+ modeling guidance"
+  default_prompt: "Explain how HRUs are defined in classic SWAT versus SWAT+, and cite separate authoritative sources for each."

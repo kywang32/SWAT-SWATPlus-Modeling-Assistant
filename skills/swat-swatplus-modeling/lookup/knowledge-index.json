@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "description": "Local reference catalog. Paths resolve relative to this skill directory. Files are not bundled; this catalog is not a precomputed search index.",
+  "documents": [
+    {
+      "id": "swat2009-theory",
+      "model": "swat",
+      "title": "Soil and Water Assessment Tool Theoretical Documentation, Version 2009",
+      "version": "2009; report TR-406 (2011)",
+      "file": "references/swat2009-theory.pdf",
+      "source_url": "https://swat.tamu.edu/media/99192/swat2009-theory.pdf",
+      "type": "theory",
+      "notes": "Classic SWAT only; do not apply SWAT+ parameter/file behavior without separate confirmation."
+    },
+    {
+      "id": "swat2012-io",
+      "model": "swat",
+      "title": "Soil and Water Assessment Tool Input/Output Documentation, Version 2012",
+      "version": "2012; report TR-439",
+      "file": "references/swat-io-documentation-2012.pdf",
+      "source_url": "https://swat.tamu.edu/media/69296/SWAT-IO-Documentation-2012.pdf",
+      "type": "input_output",
+      "notes": "Classic SWAT inputs and outputs."
+    },
+    {
+      "id": "qswatplus-v3",
+      "model": "swatplus",
+      "title": "QSWAT+ Manual, Version 3.0",
+      "version": "3.0 (August 2024)",
+      "file": "references/QSWATPlus Manual_v3.0.pdf",
+      "source_url": "https://github.com/swat-model/QSWATPlus",
+      "type": "workflow",
+      "notes": "QGIS interface manual; obtain the matching v3.0 PDF from an authorized source. Newer QSWAT+ versions may differ."
+    },
+    {
+      "id": "swatplus-docs-2025",
+      "model": "swatplus",
+      "title": "SWAT+ Documentation (author-maintained 2025 PDF capture of prior online documentation)",
+      "version": "Web PDF capture (October 2025); frozen historical snapshot",
+      "file": "references/SWAT+ Documentation.pdf",
+      "source_url": "https://docs.swat.tamu.edu/",
+      "type": "input_output",
+      "notes": "Not an official downloadable PDF artifact. Optional local historical snapshot only. Prefer current official online documentation; do not mislabel new PDF captures as the same version."
+    },
+    {
+      "id": "swatplus-install-2025",
+      "model": "swatplus",
+      "title": "SWAT+ Installation & Help (author-maintained 2025 PDF capture of prior online documentation)",
+      "version": "Web PDF capture (October 2025); frozen historical snapshot",
+      "file": "references/SWAT+ Installation & Help.pdf",
+      "source_url": "https://docs.swat.tamu.edu/getting-started/install/",
+      "type": "workflow",
+      "notes": "Not an official downloadable PDF artifact. Optional historical snapshot; installation directions can become outdated. Prefer the current official online instructions."
+    }
+  ]
+}
