@@ -1,0 +1,10 @@
+# Third-party reference PDFs must be obtained by individual users and not redistributed
+skills/*/references/**/*.pdf
+skills/*/references/*.pdf
+# Local caches, Python artifacts, and temporary material
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.cache/
+*.egg-info/
